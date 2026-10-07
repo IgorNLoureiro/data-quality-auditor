@@ -120,7 +120,6 @@ SQLSERVER_PASSWORD=sua_senha
 SQLSERVER_SCHEMA=dbo
 ```
 
-> O `.env` contém segredos e está no `.gitignore`. **Nunca** faça commit dele.
 
 O arquivo `configuration.yml` não precisa de edição: ele lê essas mesmas variáveis.
 
