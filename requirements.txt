@@ -1,0 +1,5 @@
+soda-core-sqlserver==3.5.6
+setuptools
+pyodbc
+python-dotenv
+pyyaml

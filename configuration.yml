@@ -1,0 +1,16 @@
+data_source sqlserver:
+  type: sqlserver
+
+  host: ${SQLSERVER_HOST}
+  port: ${SQLSERVER_PORT}
+
+  username: ${SQLSERVER_USER}
+  password: ${SQLSERVER_PASSWORD}
+
+  database: ${SQLSERVER_DATABASE}
+  schema: ${SQLSERVER_SCHEMA}
+
+  driver: ODBC Driver 18 for SQL Server
+
+  encrypt: true
+  trust_server_certificate: true

@@ -1,0 +1,18 @@
+quality:
+  null_allowed: false
+  empty_allowed: false
+  duplicate_rows_allowed: false
+
+generation:
+  output_directory: checks/generated
+  schema: ${SQLSERVER_SCHEMA}
+
+scripts/generate_checks.py
+import argparse
+import os
+import shutil
+from pathlib import Path
+
+import pyodbc
+import yaml
+from dotenv import load_dotenv

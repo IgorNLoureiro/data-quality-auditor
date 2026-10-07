@@ -1,0 +1,5 @@
+.env
+.venv3/
+_pycache_/
+*.pyc
+checks/generated/
